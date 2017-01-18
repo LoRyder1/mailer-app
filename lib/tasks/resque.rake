@@ -7,3 +7,5 @@ namespace :resque do
     require 'resque-scheduler'
   end
 end
+
+task 'resque:setup' => :environment
